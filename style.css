@@ -11,7 +11,8 @@ h1,h2 {
 }
 
 #landing {
-	height: 80vh;
+	margin-top: 12.5vh;
+	height: 87.5vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,7 +26,7 @@ img {
 }
 
 #gallery {
-	height: 75vh;
+	padding: 5vh 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -40,7 +41,6 @@ ul {
 
 .tools{
 	border: 5px solid #f2f2f2;
-	height: 200px;
 	width: 75%;
 	margin: 20px;
 	padding: 25px;
@@ -53,4 +53,10 @@ h2 {
 
 html {
 	scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 480px) {
+  .tools > h2 {
+    font-size: 25px;
+  }
 }
